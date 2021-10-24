@@ -1,7 +1,5 @@
-import SignInPage from "./signin/components/SignInPage";
-import SignUpPage from "./signup/components/SignUpPage";
+import SignInPageComponent from "./signin/components/SignInPage";
+import SignUpPageComponent from "./signup/components/SignUpPage";
 
-export default {
-  SignInPage,
-  SignUpPage,
-};
+export const SignInPage = (props) => <SignInPageComponent {...props} />;
+export const SignUpPage = (props) => <SignUpPageComponent {...props} />;
