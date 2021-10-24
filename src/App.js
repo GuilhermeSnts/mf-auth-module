@@ -1,10 +1,10 @@
-import { SignInPage } from './modules'
+import React from "react";
+import Routes from "./router";
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <SignInPage />
-      </header>
+      <Routes />
     </div>
   );
 }
